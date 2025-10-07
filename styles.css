@@ -99,8 +99,10 @@ header h1 {
   margin-top: 20px;
   width: 100%;
   font-size: 16px;
-  background-color: transparent;
-  color: #333;
+  font-weight: bold;
+
+  background-color: #333;
+  color: #ccc;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px 20px;
@@ -111,7 +113,8 @@ header h1 {
 }
 
 .btn-clear:hover {
-  background-color: #f1f1f1;
+  background-color: #ccc;
+  color: #333;
 }
 
 .text-red {
